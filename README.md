@@ -37,7 +37,13 @@ A production-grade REST API for managing tasks, built with **Django**, **Django 
    ```bash
    # Create Virtual Env
    python -m venv venv
-   ```
+
+   # Activate Virtual Env for windows
+   venv\Scripts\activate
+
+   # Activate Virtual Env for mac/linux
+   source venv/bin/activate
+   ``` 
 
    ```bash
    # Install dependencies (if not done)
